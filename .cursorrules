@@ -1,0 +1,2 @@
+Use nextjs 15.1 (app router) and anytime an API is created, create its corresponding page/UI
+Before creating a file make sure file does not exist already and follow existing project structure
