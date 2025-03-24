@@ -1,3 +1,5 @@
+import { Sidebar } from '@/components/dashboard/sidebar';
+
 export default function DashboardLayout({
   children,
 }: {
@@ -5,9 +7,9 @@ export default function DashboardLayout({
 }) {
   return (
     <div className="min-h-screen bg-gray-100">
-      <div className="flex">
-        {/* Sidebar will be added here */}
-        <main className="flex-1 p-8">
+      <div className="flex h-screen">
+        <Sidebar />
+        <main className="flex-1 overflow-y-auto p-8">
           {children}
         </main>
       </div>
